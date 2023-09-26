@@ -4,6 +4,8 @@ public class Strings {
         String name1 = "Anis";
         String name2 = new String("Anis");
         String lastName = "siam";
+        String line = "Hello from java";
+        String line1 = "Hello from java class";
             /*
             == means is equal?
              */
@@ -26,6 +28,25 @@ public class Strings {
 
         System.out.println(name.trim());
         System.out.println("cat");
+
+        System.out.println(line.contains("ro"));//دالة البحث
+
+        System.out.println(line.indexOf("from"));
+        System.out.println(line1.indexOf("a"));
+        System.out.println(line1.lastIndexOf("a"));
+
+        System.out.println(line1.charAt(0));
+
+        String word = "Java";
+
+        System.out.println(word.charAt(0));
+        System.out.println(word.charAt(1));
+        System.out.println(word.charAt(2));
+        System.out.println(word.charAt(3));
+
+
+
+
 
 
     }
