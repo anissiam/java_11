@@ -5,7 +5,7 @@ public class Strings {
         String name2 = new String("Anis");
         String lastName = "siam";
         String line = "Hello from java";
-        String line1 = "Hello from java class";
+        String line1 = "Hello from java class java class ";
             /*
             == means is equal?
              */
@@ -44,7 +44,16 @@ public class Strings {
         System.out.println(word.charAt(2));
         System.out.println(word.charAt(3));
 
+        System.out.println(line1.replace("java", "c++"));
 
+        System.out.println(line.substring(3));
+        System.out.println(line.substring(3, 8));
+        System.out.println(line.startsWith("He"));
+        System.out.println(line.endsWith("a"));
+
+
+        String email = "exmple@example.com";
+        System.out.println(email.contains(".com"));
 
 
 
