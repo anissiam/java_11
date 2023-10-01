@@ -1,5 +1,30 @@
 public class Strings {
     public static void main(String[] args) {
+        String text = "Java class";
+
+        System.out.println(text.isEmpty());
+        System.out.println(text.equals(""));
+        System.out.println(text.length() == 0);
+        System.out.println(text.substring(3));
+        System.out.println(text.charAt(5));
+        int x = text.length();
+        System.out.println(x);
+        System.out.println(text.substring(5));
+
+        System.out.println("===========================================");
+
+        String st1 = "PHP Exercises and";
+        String st2 = " Python Exercises";
+
+        int q = st1.concat(st2).length();
+        System.out.println(q);
+        System.out.println(st1.equals(st2));
+
+        System.out.println(st1.replace("PHP", "java"));
+
+
+        System.out.println("===========================================");
+
         String name = "    Anis ";
         String name1 = "Anis";
         String name2 = new String("Anis");
